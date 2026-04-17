@@ -79,13 +79,16 @@ h1, h2, h3, h4, h5, h6, .post-title, .page-title, .post-description {
   letter-spacing: -0.01em;
 }
 
-// Publications list: sans-serif for readability
-.publications-list {
-  font-family: $font-family-sans-serif;
-  line-height: 1.65;
-  li {
-    margin-bottom: 0.75rem;
+// Research page body text: sans-serif for readability; headings stay serif
+.research-content {
+  p, ul, ol, li, small {
+    font-family: $font-family-sans-serif;
+    line-height: 1.65;
   }
+}
+
+.publications-list li {
+  margin-bottom: 0.75rem;
 }
 
 .display-italic {
