@@ -61,15 +61,30 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6, .post-title, .page-title {
+h1, h2, h3, h4, h5, h6, .post-title, .page-title, .post-description {
   font-family: $font-family-serif;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.005em;
 }
 
 // Navigation stays sans for UI clarity
 .navbar, .nav, .nav-link, .footer {
   font-family: $font-family-sans-serif;
+}
+
+// Home page: italic, light-weight full name
+.home-title, .home-title .font-weight-bold {
+  font-weight: 300 !important;
+  font-style: italic;
+}
+
+// Publications list: sans-serif for readability
+.publications-list {
+  font-family: $font-family-sans-serif;
+  line-height: 1.65;
+  li {
+    margin-bottom: 0.75rem;
+  }
 }
 
 .display-italic {
