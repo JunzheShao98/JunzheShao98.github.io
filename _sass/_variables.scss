@@ -72,10 +72,11 @@ h1, h2, h3, h4, h5, h6, .post-title, .page-title, .post-description {
   font-family: $font-family-sans-serif;
 }
 
-// Home page: italic, light-weight full name
+// Home page: light-weight full name
 .home-title, .home-title .font-weight-bold {
   font-weight: 300 !important;
-  font-style: italic;
+  font-style: normal;
+  letter-spacing: -0.01em;
 }
 
 // Publications list: sans-serif for readability

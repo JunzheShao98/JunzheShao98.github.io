@@ -59,13 +59,31 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light, #6c757d);
+    text-align: center;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0 0 0.3rem 0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-weight: 500;
+      color: var(--global-text-color, inherit);
+    }
+
+    a {
+      word-break: break-word;
     }
   }
 }
