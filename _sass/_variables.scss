@@ -50,3 +50,24 @@ $back-to-top-width: $back-to-top-diameter;
 
 // Max width default
 $max-content-width: 930px !default;
+
+// Typography — ampcode-inspired
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
+$font-family-serif: "Fraunces", Georgia, "Times New Roman", serif !default;
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+h1, h2, h3, .post-title, .page-title {
+  font-family: $font-family-serif;
+  font-variation-settings: "opsz" 100;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.display-italic {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-weight: 300;
+}
