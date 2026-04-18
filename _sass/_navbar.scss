@@ -60,12 +60,16 @@
   .navbar-brand {
     color: var(--global-text-color);
     font-family: v.$font-family-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
     letter-spacing: -0.005em;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     font-family: v.$font-family-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
     letter-spacing: -0.005em;
 
     &:hover {
