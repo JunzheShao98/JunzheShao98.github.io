@@ -31,6 +31,8 @@
 
 .dropdown-item {
   color: var(--global-text-color);
+  font-family: v.$font-family-serif;
+  letter-spacing: -0.005em;
 
   &:hover {
     color: var(--global-hover-color);
@@ -57,10 +59,14 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: v.$font-family-serif;
+    letter-spacing: -0.005em;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-family: v.$font-family-serif;
+    letter-spacing: -0.005em;
 
     &:hover {
       color: var(--global-hover-color);
@@ -183,6 +189,11 @@
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+
+  .nav-link {
+    font-family: v.$font-family-serif;
+    letter-spacing: -0.005em;
+  }
 
   &:hover {
     color: var(--global-hover-color);
