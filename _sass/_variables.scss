@@ -75,9 +75,11 @@ h1, h2, h3, h4, h5, h6, .post-title, .page-title {
 }
 
 // Navbar brand: EB Garamond, consistent weight across first + last name
-.navbar-brand.title {
-  font-family: $font-family-serif;
-  font-weight: 400;
+nav .navbar-brand,
+.navbar .navbar-brand.title,
+a.navbar-brand.title {
+  font-family: $font-family-serif !important;
+  font-weight: 400 !important;
   letter-spacing: -0.005em;
 }
 
